@@ -1,0 +1,27 @@
+{
+  "name": "naver-kakao-keyword-crawler-demo",
+  "version": "1.0.0",
+  "description": "데이터분석을 위해서 Naver/Kakao의 검색 순위를 저장하기 위한 토이 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigmadream/Naver-Kakao-Keyword.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sigmadream/Naver-Kakao-Keyword/issues"
+  },
+  "homepage": "https://github.com/sigmadream/Naver-Kakao-Keyword#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.4.0",
+    "mongoose": "^5.3.16",
+    "node-schedule": "^1.3.1"
+  }
+}
