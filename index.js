@@ -13,7 +13,7 @@ const PortalKeywordSchema = new mongoose.Schema({
 
 const PortalKeyword = mongoose.model('PortalKeyword', PortalKeywordSchema);
 
-schedule.scheduleJob('*/10 * * * * *', async function () {
+schedule.scheduleJob('* */10 * * * *', async function () {
 	try {
 		let naverKeywords = [];
 		let daumKeywords = [];
